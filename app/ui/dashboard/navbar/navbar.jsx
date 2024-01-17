@@ -1,7 +1,7 @@
 "use client"
 import styles from "../navbar/navbar.module.css"
 import { usePathname } from 'next/navigation'
-import { MdNotifications, MdOutlineChat, MdPublic, MdSearch } from "react-icons/md"
+import { MdNotifications, MdOutlineChat, MdPublic, MdSearch, } from "react-icons/md"
 
 const Navbar = () => {
   const pathname = usePathname();
